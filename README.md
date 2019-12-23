@@ -16,6 +16,6 @@ The time we greeted you.
 
 ## Example usage
 
-uses: actions/github-action-using-docker@v1
+uses: darren-rose/github-action-using-docker@v1
 with:
   who-to-greet: 'Victor the Vacuum Cleaner'

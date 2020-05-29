@@ -1,22 +1,22 @@
 # github-action-using-docker
 
-This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+This action retrieves values from AWS parameter store.
 
 ## Inputs
 
-### `who-to-greet`
+### `key`
 
-**Required** The name of the person to greet. Default `"World"`.
+**Required** The parameter store key.
 
 ## Outputs
 
-### `time`
+### `value`
 
-The time we greeted you.
+The parameter store value.
 
 ## Example usage
 ```
 uses: darren-rose/github-action-using-docker@v1
 with:
-  who-to-greet: 'Victor the Vacuum Cleaner'
+  key: 'Victor the Vacuum Cleaner'
 ```

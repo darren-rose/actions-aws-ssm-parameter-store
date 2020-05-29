@@ -19,7 +19,7 @@ The parameter store value.
 steps:
 - name: lookup parameter store value
   id: lookup
-  uses: darren-rose/actions-aws-ssm-parameter-store@v1
+  uses: darren-rose/actions-aws-ssm-parameter-store@v2
   with:
     key: '/some/key'
   env:	

@@ -1,3 +1,3 @@
-FROM alpine:3.10
+FROM amazon/aws-cli
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]

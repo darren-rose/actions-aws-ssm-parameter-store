@@ -16,7 +16,7 @@ The parameter store value.
 
 ## Example usage
 ```
-uses: darren-rose/github-action-using-docker@v1
+uses: darren-rose/actions-aws-ssm-parameter-store@v2
 with:
-  key: 'Victor the Vacuum Cleaner'
+  key: '/some/key'
 ```
